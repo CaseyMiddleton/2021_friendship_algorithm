@@ -11,10 +11,15 @@ def play_game():
 	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
 		## STEP 1 HERE
-		
+		total_points=0
+		answer_one= int(input('Do you enjoy learning about other people/cultures/differences?\n1. Yes\n2. No\nYour answer: '))
+		answer_two= int(input('Do you appreciate animals and nature?\n1. Yes\n2. No\nYour answer: '))
+		answer_three= int(input('Do you like to laugh?\n1. Yes\n2. No\nYour answer: '))
+		answer_four= int(input('Do you like 420?\n1. Yes\n2. No\nYour answer: '))
 		## STEP 2&3 HERE
-	
+		
 		## STEP 4 HERE
+		
 	
 		
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
