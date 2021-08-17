@@ -16,8 +16,20 @@ def play_game():
 		answer_two= int(input('Do you appreciate animals and nature?\n1. Yes\n2. No\nYour answer: '))
 		answer_three= int(input('Do you like to laugh?\n1. Yes\n2. No\nYour answer: '))
 		answer_four= int(input('Do you like 420?\n1. Yes\n2. No\nYour answer: '))
+
 		## STEP 2&3 HERE
-		
+		if answer_one == 1: total_points +=50
+		else: total_points -=50
+
+		if answer_two == 1: total_points +=50
+		else: total_points -=50
+
+		if answer_three == 1: total_points +=30
+		else: total_points -=30
+
+		if answer_four == 1: total_points +=30
+		else: total_points -=30
+
 		## STEP 4 HERE
 		
 	
