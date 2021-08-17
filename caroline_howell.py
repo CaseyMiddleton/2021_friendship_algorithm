@@ -31,6 +31,10 @@ def play_game():
 		else: total_points -=30
 
 		## STEP 4 HERE
+		print('You scored a total of % out of 160 points', total_points)
+		if total_points >=130: print("You is a good human. Wanna be my fweind?")
+		elif total_points >80: print("Idk how I feel about you, but we can still be friends :)")
+		else: print("I'm sorry, but I don't like you jk I just don't think we should be friends:(")
 		
 	
 		
